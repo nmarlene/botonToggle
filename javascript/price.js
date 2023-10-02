@@ -1,5 +1,5 @@
-const btn = document.querySelector("#button-change")
-const bol = document.querySelector(".bol")
+const btn = document.querySelector(".container-button")
+const bol = document.querySelector(".secundary-button")
 const cards = document.querySelector(".container-cards")
 const priceAnnualy = document.querySelectorAll(".price-annually")
 const priceMonthly = document.querySelectorAll(".price-monthly")
