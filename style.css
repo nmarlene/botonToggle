@@ -183,3 +183,6 @@ main {
   background-color: white;
   margin-bottom: 60px;
 }
+.inactive {
+  display: none;
+}
