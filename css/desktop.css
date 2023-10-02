@@ -1,0 +1,15 @@
+@media (min-width:740px) {
+  main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding: 50px;
+    gap: 10px;
+    background-color: aliceblue;
+  }
+
+  .tarjeta3 {
+    margin-bottom: 0;
+  }
+}
