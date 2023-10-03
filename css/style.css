@@ -3,15 +3,13 @@
   margin: 0;
   padding: 0;
 }
-
 html {
   font-size: 62.5%;
   font-family: "Montserrat", sans-serif;
 }
-
 body {
   background-color: #f5f5fd;
-  background-image: url(./imgs/bg-top.svg);
+  background-image: url(../bg-top.svg);
   background-position: top right -30px;
   background-size: 60%;
   background-repeat: no-repeat;
@@ -20,62 +18,55 @@ body {
   align-items: center;
   gap: 50px;
 }
-
 .container-header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   gap: 30px;
+  margin-top: 15px;
 }
-
 .titulo {
   color: #6c708d;
 }
-
 .cont-main-button {
   display: flex;
   align-items: center;
   gap: 0 20px;
 }
-
 .paragraph-header {
   color: #6c708d;
   font-weight: 700;
   font-size: 1.3rem;
 }
-
 .container-button {
-  background: linear-gradient(90deg,
-      hsl(235deg 72% 79%) 0%,
-      hsl(236deg 67% 71%) 50%,
-      hsl(237deg 63% 64%) 100%);
-  width: 50px;
+  background: linear-gradient(
+    90deg,
+    hsl(235deg 72% 79%) 0%,
+    hsl(236deg 67% 71%) 50%,
+    hsl(237deg 63% 64%) 100%
+  );
+  width: 60px;
   height: 30px;
   border-radius: 50px;
-
+  padding: 4px;
 }
-
 .secundary-button {
   width: 22px;
   height: 22px;
   border-radius: 50%;
   background-color: white;
-  margin: 4px 3px;
   transition: 0.2s all ease;
   align-items: center;
 }
-
 .check-bol {
-  transform: translate(19px);
+  transform: translate(30px);
 }
-
 main {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
-
 .tarjeta {
   width: 310px;
   display: flex;
@@ -85,50 +76,40 @@ main {
   gap: 15px;
   padding: 25px;
 }
-
 .paragraph {
   font-size: 1.5rem;
   margin-top: 15px;
 }
-
 .last {
   margin-bottom: 15px;
 }
-
 .contprice {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .dolar {
   color: #494c5f;
   font-size: 3.7rem;
 }
-
 .price-annually,
 .price-monthly {
   color: #494c5f;
   font-size: 7rem;
 }
-
 .title {
   font-size: 1.7rem;
 }
-
 .tarjeta1 {
   color: #6c708d;
   background-color: white;
 }
-
 .containernoc {
   border-top: 1px solid #e6e6e6;
 }
-
 .noclast {
   border-bottom: 1px solid #e6e6e6;
 }
-
 .learn-more {
   font-family: "Montserrat", sans-serif;
   color: white;
@@ -138,45 +119,41 @@ main {
   font-size: 1.2rem;
   letter-spacing: 1px;
   margin-top: 15px;
-  background: linear-gradient(90deg,
-      hsl(235deg 72% 79%) 0%,
-      hsl(236deg 67% 71%) 50%,
-      hsl(237deg 63% 64%) 100%);
+  background: linear-gradient(
+    90deg,
+    hsl(235deg 72% 79%) 0%,
+    hsl(236deg 67% 71%) 50%,
+    hsl(237deg 63% 64%) 100%
+  );
 }
-
 .learn-more:hover {
   cursor: pointer;
-  background-image: linear-gradient(180deg,
-      hsl(0deg 0% 100%) 0%,
-      hsl(344deg 0% 96%) 50%,
-      hsl(0deg 0% 93%) 100%);
+  background: white;
   color: #696fdd;
+  border: 1px solid #696fdd;
 }
-
 .tarjeta2 {
-  background-image: linear-gradient(180deg,
-      hsl(235deg 72% 79%) 0%,
-      hsl(236deg 67% 71%) 68%,
-      hsl(237deg 63% 64%) 100%);
+  background-image: linear-gradient(
+    180deg,
+    hsl(235deg 72% 79%) 0%,
+    hsl(236deg 67% 71%) 68%,
+    hsl(237deg 63% 64%) 100%
+  );
   color: white;
 }
-
 .contprice2 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .dolar2 {
   color: white;
   font-size: 3.7rem;
 }
-
-.price2 {
+.pricem24,
+.pricea24 {
   color: white;
-  font-size: 7rem;
 }
-
 .learn-more2 {
   font-family: "Montserrat", sans-serif;
   border: none;
@@ -185,33 +162,31 @@ main {
   font-size: 1.2rem;
   letter-spacing: 1px;
   margin-top: 15px;
-  background-color: white;
+  background: white;
   color: #696fdd;
 }
-
 .learn-more2:hover {
   cursor: pointer;
-  background-image: linear-gradient(180deg,
-      hsl(235deg 72% 79%) 0%,
-      hsl(236deg 67% 71%) 68%,
-      hsl(237deg 63% 64%) 100%);
+  background: linear-gradient(
+    180deg,
+    hsl(237deg 63% 64%) 0%,
+    hsl(237deg 63% 64%) 68%,
+    hsl(237deg 63% 64%) 100%
+  );
   color: white;
+  border: 1px solid rgb(238, 238, 238);
 }
-
 .containernoc2 {
   border-top: 1px solid #eeeeee54;
 }
-
 .noclast2 {
   border-bottom: 1px solid #eeeeee54;
 }
-
 .tarjeta3 {
   color: #6c708d;
   background-color: white;
   margin-bottom: 60px;
 }
-
 .inactive {
   display: none;
 }
