@@ -9,7 +9,7 @@ html {
 }
 body {
   background-color: #f5f5fd;
-  background-image: url(./imgs/bg-top.svg);
+  background-image: url(../bg-top.svg);
   background-position: top right -30px;
   background-size: 60%;
   background-repeat: no-repeat;
@@ -24,6 +24,7 @@ body {
   justify-content: center;
   text-align: center;
   gap: 30px;
+  margin-top: 15px;
 }
 .titulo {
   color: #6c708d;
@@ -55,6 +56,11 @@ body {
   height: 22px;
   border-radius: 50%;
   background-color: white;
+  transition: 0.2s all ease;
+  align-items: center;
+}
+.check-bol {
+  transform: translate(30px);
 }
 main {
   display: flex;
@@ -86,7 +92,8 @@ main {
   color: #494c5f;
   font-size: 3.7rem;
 }
-.price {
+.price-annually,
+.price-monthly {
   color: #494c5f;
   font-size: 7rem;
 }
@@ -121,13 +128,9 @@ main {
 }
 .learn-more:hover {
   cursor: pointer;
-  background-image: linear-gradient(
-    180deg,
-    hsl(0deg 0% 100%) 0%,
-    hsl(344deg 0% 96%) 50%,
-    hsl(0deg 0% 93%) 100%
-  );
+  background: white;
   color: #696fdd;
+  border: 1px solid #696fdd;
 }
 .tarjeta2 {
   background-image: linear-gradient(
@@ -147,9 +150,9 @@ main {
   color: white;
   font-size: 3.7rem;
 }
-.price2 {
+.pricem24,
+.pricea24 {
   color: white;
-  font-size: 7rem;
 }
 .learn-more2 {
   font-family: "Montserrat", sans-serif;
@@ -159,18 +162,19 @@ main {
   font-size: 1.2rem;
   letter-spacing: 1px;
   margin-top: 15px;
-  background-color: white;
+  background: white;
   color: #696fdd;
 }
 .learn-more2:hover {
   cursor: pointer;
-  background-image: linear-gradient(
+  background: linear-gradient(
     180deg,
-    hsl(235deg 72% 79%) 0%,
-    hsl(236deg 67% 71%) 68%,
+    hsl(237deg 63% 64%) 0%,
+    hsl(237deg 63% 64%) 68%,
     hsl(237deg 63% 64%) 100%
   );
   color: white;
+  border: 1px solid rgb(238, 238, 238);
 }
 .containernoc2 {
   border-top: 1px solid #eeeeee54;
@@ -182,4 +186,7 @@ main {
   color: #6c708d;
   background-color: white;
   margin-bottom: 60px;
+}
+.inactive {
+  display: none;
 }
